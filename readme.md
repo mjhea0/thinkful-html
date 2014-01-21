@@ -28,10 +28,9 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 
 
 1. Tags form the structure of your page. There usually is an opening tag and then a closing tag, like - <div></div>.
-2.Elements represent the tags as well as whatever falls within the tags, like - <h1>Hello, World!</h1>
+2. Elements represent the tags as well as whatever falls within the tags, like - <h1>Hello, World!</h1>
 3. Selectors are used to select the tag for some purpose. In our case we are going to use them for defining styles 
 
-### Task create your own page
 
 Let's make this look better.
 
@@ -41,8 +40,6 @@ While HTML provides, structure, CSS is used for styling, making webpages look ni
 
 
 CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML elements. For example:
-
-### Task add your own styles
 
 
 
