@@ -47,10 +47,14 @@ CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML 
 
 ## Your turn!
 
-1. Add a header
-2. Create a list
-3. Change the background and fonts
-4. Style a list
+1. Add a header (H1)
+2. Create an order list
+3. Change the background color and font size
+4. Style the list
 
 
 ## Inspecting a Web Site
+
+Chrome Developer Tools
+
+## Extra Credit
