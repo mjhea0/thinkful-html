@@ -26,6 +26,8 @@ elements:
 1. tags (some close, some don't)
 2. attributes
 
+### Task create your own page
+
 Let's make this look better.
 
 ## CSS
@@ -34,3 +36,17 @@ While HTML provides, structure, CSS is used for styling, making webpages look ni
 
 
 CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML elements. For example:
+
+### Task add your own styles
+
+
+
+## Your turn!
+
+Add a header
+Create a list
+Change the background and fonts
+Style a list
+
+
+## Inspecting a Web Site
