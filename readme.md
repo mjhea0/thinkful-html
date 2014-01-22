@@ -58,9 +58,9 @@ CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML 
 #my-header {
   font-color: #660000;
 }
+```
 
-
-
+> Save this as "page1.css".
 
 ## Your turn!
 
