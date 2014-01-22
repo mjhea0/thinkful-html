@@ -233,16 +233,66 @@ Margins, padding, and borders are also good properties to go over since they app
 </html>
 ```
 
+Now, let's update the CSS file.
 
-What do you think? Good. Bad. Ugly? Change the color of the background and header on your end. The [color picker](http://color.hailpixel.com/) is nice for this. [Update](http://www.flickr.com/) the picture, too, if you want. 
+```html
+/* this is a comment */
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  background-color: #FFFF00;
+  max-width: 500px;
+  text-align: center;
+}
+
+p {
+  line-height: 20px;
+}
+
+h1 {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+#my-header {
+  color: #660000;
+}
+
+#first-paragraph {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #000000;
+}
+
+#second-paragraph {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #000000;
+}
+
+.even {
+ font-style: italic;
+}
+
+.odd {
+  color: red;
+}
+```
+
+Save. Refresh your browser.
+
+What do you think? Good. Bad. Ugly? Change the color of the background and header on your end. The [color picker](http://color.hailpixel.com/) is nice for finding colors. [Update](http://www.flickr.com/) the picture, too, if you want. 
 
 ## Your turn!
 
-1. Add a header (H1)
-2. Create an order list
-3. Change the background color and font size
+1. Create a basic HTML page woth the doctype, html, head, abd body tags
+2. Add a header (H1)
+3. Create an order list
+4. Add an external CSS file
+4. Change the background color and font size
 4. Style the list
 
+Show it off!
 
 ## Inspecting a Web Site
 
