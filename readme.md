@@ -8,7 +8,7 @@ Now let's turn to an actual web page ..
 
 ## Requirements
 
-Before we start, you need a **source code editor**, which is simply a text editor designed specifically for writing source code. Some popular editors include Notepade++ (Windows), TextMate (Mac), and Gedit (cross-platform). For this exercise, please download the cross-platform editor [Sublime Text](http://www.sublimetext.com/2), which is an open-source editor designed for simplicity and ease of use.
+Before we start, you need a *source code editor*, which is simply a text editor designed specifically for writing source code. Some popular editors include Notepade++ (Windows), TextMate (Mac), and Gedit (cross-platform). For this exercise, please download the cross-platform editor [Sublime Text](http://www.sublimetext.com/2), which is an open-source editor designed for simplicity and ease of use.
 
 Also, please make sure you have [Google Chrome](http://google.com/chrome) installed.
 
@@ -18,9 +18,11 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 
 ```html
 <html>
-  <head></head>
+  <head>
+  	<title>My bumblebee website</title>
+  </head>
   <body>
-    <h1>Bees!</h1>
+    <h1 id="my-header">Bees!</h1>
     <p>
       <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg"/>
     </p>
@@ -28,13 +30,19 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 </html>
 ```
 
+**Let's look at some of the elements in this simple example ..**
 
-1. Tags form the structure of your page. There usually is an opening tag and then a closing tag, like - `<div></div>`.
+1. Tags form the structure of your page. There usually is an opening tag and then a closing tag, like - `<div></div>`. Some tags, like the `<img>` tag does not require a closing tag. It's best practice to add a `/` on the end of such tags.
 2. Elements represent the tags as well as whatever falls within the tags, like - `<h1>Hello, World!</h1>`
-3. Selectors are used to select the tag for some purpose. In our case we are going to use them for defining styles 
+3. Selectors are used to select the tag for some purpose. In our case we are going to use them for defining styles. Selectors are either `id`s or `class`es. In the above example, notice the id `my-header`, which is associated with the `<img>` tag.
 
+If you open the page in Chrome, it should look like this:
 
-Let's make this look better.
+![page1](page1.png)
+
+Boring! Let's make this look a bit better.
+
+On to CSS ..
 
 ## CSS
 
