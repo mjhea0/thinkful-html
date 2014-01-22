@@ -311,3 +311,5 @@ You can also edit your HTML in real time. With Dev Tools open, right click the t
 > Be careful as these changes are temporary. Watch what happens when you refresh the page.
 
 ## Extra Credit
+
+1. Try some of [these](http://en.wikiversity.org/wiki/Web_Design/HTML_Challenges) challenges.
