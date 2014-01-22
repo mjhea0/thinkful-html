@@ -17,6 +17,7 @@ Also, please make sure you have [Google Chrome](http://google.com/chrome) instal
 HTML gives a web pages structure, allowing you to view it from a web browser:
 
 ```html
+<!DOCTYPE html>
 <html>
   <head>
   	<title>My bumblebee website</title>
@@ -34,11 +35,17 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 > Copy and paste this HTML code into your text editor and save the file as "page.html".
 
 
-**Let's look at some of the elements in this simple example ..**
+### Elements, Tags, and Atrributes
 
-1. Tags form the structure of your page. There usually is an opening tag and then a closing tag, like - `<div></div>`. Some tags, like the `<img>` tag does not require a closing tag. It's best practice to add a `/` on the end of such tags.
+1. Tags form the structure of your page. They surround and apply *meaning* to content. There usually is an opening tag and then a closing tag, like - `<div></div>`. Some tags, like the `<img>` tag does not require a closing tag. It's best practice to add a `/` on the end of such tags.
 2. Elements represent the tags as well as whatever falls within the tags, like - `<h1>Hello, World!</h1>`
-3. Selectors are used to select the tag for some purpose. In our case we are going to use them for defining styles. Selectors are either `id`s or `class`es. In the above example, notice the id `my-header`, which is associated with the `<img>` tag.
+3. Attributes (sometimes referred to as selectors) are used to select the tag for some purpose. In our case we are going to use them for defining styles. Selectors in most cases are either `id`s or `class`es. In the above example, notice the id `my-header`, which is associated with the `<img>` tag. We'll look more at this later
+
+### What's going on?
+
+1. The first line, `<!DOCTYPE html>` is the document type declaration, which tells the browser the version of HTML the page is using (HTML5, in our case).
+2. `<html>` is the first tag that informs the browser that all code that falls between the opening and closing, `</html>`, tag is HTML. 
+3. All code that falls within the `<body>` tags are the main content, which will appear in the browser to the end user.
 
 If you open the page in Chrome, it should look like this:
 
