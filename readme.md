@@ -54,6 +54,11 @@ While HTML provides, structure, CSS is used for styling, making webpages look ni
 
 CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML elements. For example, remember this element from above - `<h1 id="my-header">Bees!</h1>`. Well, since their is an `id` selector associated with it, we can assign CSS styles to it using an external stylesheet.
 
+```css
+#my-header {
+  font-color: #660000;
+}
+
 
 
 
