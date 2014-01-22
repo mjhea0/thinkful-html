@@ -194,8 +194,9 @@ body {
 
 ### Additional Properties
 
-Font-related
-Margins, Padding, Borders
+You can view all the availble properties [here](http://www.w3.org/TR/CSS2/propidx.html). Pay attention to the font-related properties - like font-family, font-weight, and font-style - as you will be using these later.
+
+Margins, padding, and borders are also good properties to go over since they appear in almost every web page.
 
 ### Putting it all together
 
