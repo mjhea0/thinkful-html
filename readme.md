@@ -4,7 +4,11 @@ Websites are made up of many things, but HTML (Hyper Text Markup Language) and C
 
 Think of a car. It, too, is made up of many things. Doors. Windows. Tires. Seats. In the world of HTML, these are the `elements`. Meanwhile, each of those elements are different. Perhaps they differ by size. Or color. Or wear and tear. These attributes are used to define how the `elements` look.
 
-> Before we start, you need a source code editor, which is simply a text editor designed specifically for writing source code. Some popular editors include Notepade++ (Windows), TextMate (Mac), and Sublime Text (cross-platform). For this exercise, please download the cross-platform editor [Gedit](https://wiki.gnome.org/Apps/Gedit#Download), which is an open-source editor designed for simplicity and ease of use.
+## Requirements
+
+Before we start, you need a source code editor, which is simply a text editor designed specifically for writing source code. Some popular editors include Notepade++ (Windows), TextMate (Mac), and Sublime Text (cross-platform). For this exercise, please download the cross-platform editor [Gedit](https://wiki.gnome.org/Apps/Gedit#Download), which is an open-source editor designed for simplicity and ease of use.
+
+Google Chrome
 
 
 
