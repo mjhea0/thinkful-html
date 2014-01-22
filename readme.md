@@ -41,7 +41,7 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 
 1. Tags form the structure of your page. They surround and apply *meaning* to content. There usually is an opening tag and then a closing tag, like - `<div></div>`, a divider. Some tags, like the `<img>` (image) and `<br>` (line break) tags do not require a closing tag. Notice how I included one `<br>` tag with a `/` on the end. This was a best practice in previous versions of HTML. HTML5, on the other hand - the version we are using - is much more relaxed and does not require a `/`, but it will work fine with it as well. It's really the developer's preference.
 2. Elements represent the tags as well as whatever falls between the opening and closing tag, like - `<title>My bumblebee website</title>`
-3. Attributes (sometimes referred to as selectors) are used to select the tag for some purpose. In our case we are going to use them for defining styles, when we get to CSS. Selectors in most cases are either `id`s or `class`es. In the above example, notice the id `my-header`, which is associated with the `<img>` tag. We'll look more at this later.
+3. Attributes (sometimes referred to as selectors) are used to select the tag for some purpose. In our case we are going to use them for defining styles, when we get to CSS. Selectors in most cases are either `id`s or `class`es. In the above example, notice the id `my-header`, which is associated with the `<img>` tag. We'll look more at this later. Further, we also use the attributes `width="120"` and  `height="90"`. This can be defined using attributes directly withing the HTML or in the CSS stylesheet. Again, more on this later.
 
 ### What's going on?
 
@@ -56,11 +56,8 @@ Back to the HTML ..
 
 ### Additional Tags
 
-1. 
-2. 
-3. Ordered and Unordered Lists
-4. Links
-5. Images (attributes )
+Two additional tags are lists (ordered and unordered) as well as links. Look these up on your own.
+
 
 ### Putting it all together.
 
