@@ -34,7 +34,7 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 </html>
 ```
 
-> Copy and paste this HTML code into your text editor and save the file as "index.html".
+**Copy and paste this HTML code into your text editor and save the file as "index.html".**
 
 Open the page in Chrome; it should look like this:
 
@@ -114,7 +114,9 @@ CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML 
 }
 ```
 
-> Save this as "styles.css".
+**Save this as "styles.css".**
+
+> There are three ways that you can assign styles to HTML tags. Inline. Internal. Or External. Inline styles are placed directly in the tag; these should be avoided, though, as it's best practice to keep HTML and CSS styles separated (don't mix structure with presentation!). Internal styles fall within the head of a website. Again, these should be avoided as well due to reasons mentioned before. Read more about this [here](http://www.w3schools.com/css/css_howto.asp).
 
 Next, we need to "link" our HTML page and CSS stylesheet. To do so, add the following code to the `<head>` section of the HTML page just below the tile:
 
