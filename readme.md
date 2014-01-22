@@ -157,9 +157,26 @@ Your code should now look like this:
 
 Save the file. Check it out in your browser.
 
-See the difference? Yes, it's subtle - but the `<H1>`, or header, is a maroon color.
+See the difference? Yes, it's subtle - but the `<H1>`, or main header, is a maroon color.
 
 You can also change certain elements even if they are not *explicitly* found within the HTML of the page, like the background color.
+
+### CSS Syntax
+
+Look back at the CSS file:
+
+```css
+#my-header {
+  color: #660000;
+}
+```
+
+1. We have the `#my-header` *selector*, which is associated with the selector in our HTML document, followed by curly braces.
+2. Inide the curly braces, we have *properties*, which are descriptive words, like font-weight, font-size, or background color. In our case, we have `color`.
+3. *Values* are then assigned to each property, which are preceded by a color and followed by a semi-colon. [http://cssvalues.com/](http://cssvalues.com/) is an excellent resource for finding the acceptable values given a CSS property. I use this almost everyday.
+
+
+
 
 Update your CSS file. Make sure to save it.
 
