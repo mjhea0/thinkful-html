@@ -34,24 +34,27 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 </html>
 ```
 
-> Copy and paste this HTML code into your text editor and save the file as "page.html".
+> Copy and paste this HTML code into your text editor and save the file as "index.html".
 
 
 ### Elements, Tags, and Atrributes
 
-1. Tags form the structure of your page. They surround and apply *meaning* to content. There usually is an opening tag and then a closing tag, like - `<div></div>`, a divider. Some tags, like the `<img>` (image) and '<br>` (line break) tags do not require a closing tag. Notice how I included one `<br>` tag with a `/` on the end. This was a best practice in previous versions HTML. HTML5, the version we are using, is much more relaxed and does not require a `/`, but it will work fine with it as well. It's really up to the developer.
-2. Elements represent the tags as well as whatever falls within the tags, like - `<h1>Hello, World!</h1>`
-3. Attributes (sometimes referred to as selectors) are used to select the tag for some purpose. In our case we are going to use them for defining styles. Selectors in most cases are either `id`s or `class`es. In the above example, notice the id `my-header`, which is associated with the `<img>` tag. We'll look more at this later
+1. Tags form the structure of your page. They surround and apply *meaning* to content. There usually is an opening tag and then a closing tag, like - `<div></div>`, a divider. Some tags, like the `<img>` (image) and '<br>` (line break) tags do not require a closing tag. Notice how I included one `<br>` tag with a `/` on the end. This was a best practice in previous versions of HTML. HTML5, on the other hand - the version we are using - is much more relaxed and does not require a `/`, but it will work fine with it as well. It's really the developer's preference.
+2. Elements represent the tags as well as whatever falls between the opening and closing tag, like - `<title>My bumblebee website</title>`
+3. Attributes (sometimes referred to as selectors) are used to select the tag for some purpose. In our case we are going to use them for defining styles, when we get to CSS. Selectors in most cases are either `id`s or `class`es. In the above example, notice the id `my-header`, which is associated with the `<img>` tag. We'll look more at this later.
 
 ### What's going on?
 
-1. The first line, `<!DOCTYPE html>` is the document type declaration, which tells the browser the version of HTML the page is using (HTML5, in our case).
-2. `<html>` is the first tag that informs the browser that all code that falls between the opening and closing, `</html>`, tag is HTML. 
-3. All code that falls within the `<body>` tags are part the main content of the page, which will appear in the browser to the end user.
+Back to the HTML ..
+
+1. The first line, `<!DOCTYPE html>` is the document type declaration, which tells the browser the version of HTML the page is using (HTML5, in our case). Without this, broswes can get confused, especially older versions of Internet Explorer. 
+2. The `<head>` tag contains links to CSS stylesheets and Javascript files that we wish to use in our web page, as well as meta information used by search engines for clasification. In the above HTML, I used the `<title>` tag to give the web page a tile.
+3. `<html>` is the first tag that informs the browser that all code that falls between the opening and closing, `</html>`, tag is HTML. 
+4. All code that falls within the `<body>` tags are part the main content of the page, which will appear in the browser to the end user.
 
 ### Additional Tags
 
-1. Headers: These include the `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` and `<h6>` tags. `<h1>` is the main heading and the reamining headings decrease in size, with `<h6>` beging the smallest. It's best practice to use the `<h1>` tage once per page, while the other tags can be used any number of times, but they should always be in order. In other words, `<h3>` should be a sub-heading of `<h2>` and `<h4>` should be a sub-heading of `<h3>` ...
+1. Headers: These include the `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` and `<h6>` tags. `<h1>` is the main heading and the reamining headings decrease in size, with `<h6>` beging the smallest. It's best practice to use the `<h1>` tage once per page, while the other tags can be used any number of times, but they should always be in order. In other words, `<h3>` should be a sub-heading of `<h2>` and `<h4>` should be a sub-heading of `<h3>`. Can you recognize the header in the HTML. 
 2. Paragraphs: The `<p>` tag is used for splitting content literally into seperate pargarphs. Each new `<p>` tag will appear on a new line.
 3. Ordered and Unordered Lists
 4. Links
