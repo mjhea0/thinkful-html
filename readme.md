@@ -97,9 +97,7 @@ Let's add all the tags that were discussed.
 </html>
 ```
 
-
-
-Boring! Let's make this look a bit better.
+Check it out in your browser. Add some more elements, or let's move on to CSS so we can make the site look better.
 
 On to CSS ..
 
