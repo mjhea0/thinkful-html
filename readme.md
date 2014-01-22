@@ -2,17 +2,15 @@
 
 Websites are made up of many things, but HTML (Hyper Text Markup Language) and CSS (Cascading Style Sheets) are two of the most important components. Together, they are the building blocks for every single webpage on the Internet.
 
-Think of a car. It, too, is made up of many things. Doors. Windows. Tires. Seats. In the world of HTML, these are the `elements`. Meanwhile, each of those elements are different. Perhaps they differ by size. Or color. Or wear and tear. These attributes are used to define how the `elements` look.
+Think of a car. It, too, is made up of many attributes. Doors. Windows. Tires. Seats. In the world of HTML, these are the `elements` of a webpage. Meanwhile, each of the car's attrubutes are usually different. Perhaps they differ by size. Or color. Or wear and tear. These attributes are used to define how the `elements` look. Back in the world of webpages, CSS is used to define the look and feel of a webpage.
+
+Now let's turn to an actual web page ..
 
 ## Requirements
 
-Before we start, you need a source code editor, which is simply a text editor designed specifically for writing source code. Some popular editors include Notepade++ (Windows), TextMate (Mac), and Sublime Text (cross-platform). For this exercise, please download the cross-platform editor [Gedit](https://wiki.gnome.org/Apps/Gedit#Download), which is an open-source editor designed for simplicity and ease of use.
+Before we start, you need a **source code editor**, which is simply a text editor designed specifically for writing source code. Some popular editors include Notepade++ (Windows), TextMate (Mac), and Gedit (cross-platform). For this exercise, please download the cross-platform editor [Sublime Text](http://www.sublimetext.com/2), which is an open-source editor designed for simplicity and ease of use.
 
-Google Chrome
-
-
-
-Now let's turn to an actual web page ..
+Also, please make sure you have [Google Chrome](http://google.com/chrome) installed.
 
 ## HTML
 
