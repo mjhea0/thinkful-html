@@ -2,21 +2,18 @@ So, I'm Michael Herman. I'm a Python and Frontend mentor here at Thinkful. I've 
 
 Lots of people ask me about mentorship in general. Why is it so important? In my opinion, when you are learning, finding a mentor is one of the most important tasks. Just having someone there to talk to, who struggled in many of the same ways makes a huge difference. Without the mentor I had, I wouldn't be here today. This is exactly what makes Thinkful special, and why I am a part of it.
 
-So that's who I am. I'd love to know who you are. So, let's just go around quickly. Just say your name, how much experience you have with programming, and where you're from. Oh and also indicate whether you know what madlibs is as that's what we will be creating today. Just a simple yes or no will suffice. You can either speak if you have a microphone or type it in the chat window.
+So that's who I am. I'd love to know who you are. So, let's just go around quickly. Just say your name, how much experience you have with programming, and where you're from. Oh and also indicate whether you know were able to download the text editor, Sublime text, and whether you have Chrome installed. A simple yes or no wil suffice. You can either speak if you have a microphone or type it in the chat window.
 
 ...
 
-Alright, so today we will be creating a madlibs game using HTML, CSS, JavaScript, and jQuery. Let me go ahead and pull up the final project so you can see what you'll be creating.
+Alright, so today we will be going over the very basics of HTML and CSS. I've created a blog post to go along with this tutorial, which I'll send out after we're done. 
 
-I've broken this into seven parts. Each part adds a new piece of functionality, so we will be developing this iteratively. I also have a blog post setup that goes over exactly how to do this. I put the link in the chat window. Also, if you have a question, please enter it into the chat. 
+You will be coding today. If you want, you can code a long with me. Or if you'd rather observe that's fine too. Either way, there will be times that I stop coding or lecturing and ask that you code on your own. 
 
-The chat should be a large pane in the right side of the window. If you see something else, scroll to the left side of the page until the tool menu appears. Click the first tool.
+If you have questions, please please either shout it out over me or enter it into the chat window. I won't always be able to see the chat so bear with me if I don't get to your question right away. We will also have a more formal Q&A session at the end if you want to save your questions until then.
 
-I'll try to grab as many questions as I can as I go along. I'll go ahead and stop after each section to address questions, so please ask away! Or you can save your questions to the end as we will have a more formal Q&A session then. I'll also leave my email address so you can contact me directly.
+Okay, without further ado, let's begin ..
 
-One last thing: This is a long tutorial, which we should finish. That said, please ask as many questions as you want. It's much better to finish 75% of the material but understand it, then just go over a brief overview of all of it. Also, questions make this fun! Don't be afraid to ask. 
-
-Alright let's get started. So, many people ask - "What's the difference between JavaScript and jQuery"? The answer is simple: Nothing. Well, that's not entire true. jQuery is just a JavaScript library used to make coding JavaScript much easier. 
 
 ...
 
