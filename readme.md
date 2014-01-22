@@ -159,8 +159,6 @@ Save the file. Check it out in your browser.
 
 See the difference? Yes, it's subtle - but the `<H1>`, or main header, is a maroon color.
 
-You can also change certain elements even if they are not *explicitly* found within the HTML of the page, like the background color.
-
 ### CSS Syntax
 
 Look back at the CSS file:
@@ -175,8 +173,11 @@ Look back at the CSS file:
 2. Inide the curly braces, we have *properties*, which are descriptive words, like font-weight, font-size, or background color. In our case, we have `color`.
 3. *Values* are then assigned to each property, which are preceded by a color and followed by a semi-colon. [http://cssvalues.com/](http://cssvalues.com/) is an excellent resource for finding the acceptable values given a CSS property. I use this almost everyday.
 
+Let's make some updates ..
 
+### Colors
 
+You can change certain elements even if they are not *explicitly* found within the HTML of the page, like the background color.
 
 Update your CSS file. Make sure to save it.
 
@@ -190,7 +191,15 @@ body {
 }
 ```
 
-![page3](page3.png)
+Save. Referesh your browser.
+
+### Additional Properties
+
+Font-related
+Margins, Padding, Borders
+
+### Putting it all together
+
 
 What do you think? Good. Bad. Ugly? Go ahead and change the color of the background and header on your end. The [color picker](http://color.hailpixel.com/) is nice for this. [Update](http://www.flickr.com/) the picture, too, if you want. 
 
