@@ -61,7 +61,7 @@ Back to the HTML ..
 
 Two additional tags are lists (ordered `<ol>` and unordered `<ul>`) as well as links `<a href>`. Look these up on your own. Mozilla has an excellent reference guide [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list).
 
-### Putting it all together.
+### Putting it all together
 
 Let's add all the tags that were discussed.
 
