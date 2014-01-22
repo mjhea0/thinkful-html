@@ -1,0 +1,41 @@
+/* this is a comment */
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  background-color: #FFFF00;
+  max-width: 500px;
+  text-align: center;
+}
+
+p {
+  line-height: 20px;
+}
+
+h1 {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+#my-header {
+  color: #660000;
+}
+
+#first-paragraph {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #000000;
+}
+
+#second-paragraph {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #000000;
+}
+
+.even {
+ font-style: italic;
+}
+
+.odd {
+  color: red;
+}
