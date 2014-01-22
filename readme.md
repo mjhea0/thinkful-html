@@ -27,7 +27,7 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
     <h1 id="my-header">Bees!</h1>
     <p>
       <br/>
-      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg" width="120" height="90"/>
+      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg" width="240" height="180"/>
       <br>
     </p>
   </body>
@@ -35,6 +35,10 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 ```
 
 > Copy and paste this HTML code into your text editor and save the file as "index.html".
+
+Open the page in Chrome; it should look like this:
+
+![html](/images/index1.png)
 
 
 ### Elements, Tags, and Atrributes
@@ -66,9 +70,7 @@ Let's add all the tags that were discussed.
 code here
 ```
 
-If you open the page in Chrome, it should look like this:
 
-![page1](page1.png)
 
 Boring! Let's make this look a bit better.
 
