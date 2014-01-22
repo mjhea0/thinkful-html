@@ -86,12 +86,11 @@ Your code should now look like this:
 </html>
 ```
 
-Check it out in your browser:
+Then save the file as "page2.html" (*Do a Save-As*). Check it out in your browser:
 
 ![page2](page2.png)
 
-
-Then save the file as "page2.html".
+See the difference? Yes, it's subtle - but the `<H1>`, of header, is a maroon color.
 
 ## Your turn!
 
