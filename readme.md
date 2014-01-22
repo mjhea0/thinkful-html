@@ -294,16 +294,18 @@ What do you think? Good. Bad. Ugly? Change the color of the background and heade
 
 Show it off!
 
-## Inspecting a Web Site
+## Chrome Developer Tools
 
-Using Chrome Developer tools, we can not only view how someone added an CSS seclector to make the HTML text to appear to hoover - but it's also an exceelent means of testing either HTML or CSS page directly from the browser. This can save a lot time
+Using Chrome Developer Tools, we can not only view how someone added an CSS seclector to make the HTML text to appear to hoover - but it's also an exceelent means of testing either HTML or CSS page directly from the browser. This can save a lot time
 
 Open up the HTML page we worked on. Right Click on the first paragraph. Notice the styles on the right side of the Development Tools pane. Do you see the styles associated with the first paragraph? Go ahead and change the size of the border from 2px to 20px: 
 
 ![html](/images/devtools.png)
 
-Chrome has done us the favor of including some wonderful development tools into the web browser that you're already using. They're not only a great way to see how someone else made that really cool hover effect, but also a great way to experiment in real time without having to constantly refresh the page you are working on.
+Change the color of the even rows from black to something super cool.
 
-Chrome Developer Tools
+You can also edit your HTML in real time. With Dev Tools open, riht click the text and select "Edit as HTML"
+
+> Be careful as these changes are temporary. Watch what happens when you refresh the page.
 
 ## Extra Credit
