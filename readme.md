@@ -56,8 +56,7 @@ Back to the HTML ..
 
 ### Additional Tags
 
-Two additional tags are lists (ordered and unordered) as well as links. Look these up on your own.
-
+Two additional tags are lists (ordered and unordered) as well as links. Look these up on your own. Mozilla has an excellent reference guide [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list).
 
 ### Putting it all together.
 
