@@ -31,7 +31,7 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 </html>
 ```
 
-> Copy and paste this HTML code into your text editor and save the file as "page1.html".
+> Copy and paste this HTML code into your text editor and save the file as "page.html".
 
 
 **Let's look at some of the elements in this simple example ..**
@@ -61,12 +61,12 @@ CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML 
 }
 ```
 
-> Save this as "page1.css".
+> Save this as "styles.css".
 
 Next, we need to "link" our HTML page and CSS stylesheet. To do so, add the following code to the `<head>` section of the HTML page just below the tile:
 
 ```html
-<link rel="stylesheet" href="page1.css">
+<link rel="stylesheet" href="styles.css">
 ```
 
 Your code should now look like this:
@@ -75,7 +75,7 @@ Your code should now look like this:
 <html>
   <head>
   	<title>My bumblebee website</title>
-  	<link rel="stylesheet" href="page1.css">
+  	<link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1 id="my-header">Bees!</h1>
@@ -86,11 +86,29 @@ Your code should now look like this:
 </html>
 ```
 
-Then save the file as "page2.html" (*Do a Save-As*). Check it out in your browser:
+Then save the file as. Check it out in your browser:
 
 ![page2](page2.png)
 
-See the difference? Yes, it's subtle - but the `<H1>`, of header, is a maroon color.
+See the difference? Yes, it's subtle - but the `<H1>`, or header, is a maroon color.
+
+You can also change certain elements even if they are not *explicitly* found within the HTML of the page, like the background color.
+
+Update your CSS file. Make sure to save it.
+
+```css
+body {
+  background-color: #FFFF00
+}
+
+#my-header {
+  color: #660000;
+}
+```
+
+![page3](page3.png)
+
+What do you think? Good. Bad. Ugly? Go ahead and change the color of the background and header on your end. The [color picker](http://color.hailpixel.com/) is nice for this. [Update](http://www.flickr.com/) the picture, too, if you want. 
 
 ## Your turn!
 
