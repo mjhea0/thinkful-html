@@ -27,7 +27,7 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
     <h1 id="my-header">Bees!</h1>
     <p>
       <br/>
-      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg"/>
+      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg" width="120" height="90"/>
       <br>
     </p>
   </body>
@@ -51,14 +51,16 @@ Back to the HTML ..
 2. The `<head>` tag contains links to CSS stylesheets and Javascript files that we wish to use in our web page, as well as meta information used by search engines for clasification. In the above HTML, I used the `<title>` tag to give the web page a tile.
 3. `<html>` is the first tag that informs the browser that all code that falls between the opening and closing, `</html>`, tag is HTML. 
 4. All code that falls within the `<body>` tags are part the main content of the page, which will appear in the browser to the end user.
+5. Headers: These include the `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` and `<h6>` tags. `<h1>` is the main heading and the reamining headings decrease in size, with `<h6>` beging the smallest. It's best practice to use the `<h1>` tage once per page, while the other tags can be used any number of times, but they should always be in order. In other words, `<h3>` should be a sub-heading of `<h2>` and `<h4>` should be a sub-heading of `<h3>`. Can you recognize the header in the HTML. 
+6. Paragraphs: The `<p>` tag is used for splitting content literally into seperate pargarphs. Each new `<p>` tag will appear on a new line.
 
 ### Additional Tags
 
-1. Headers: These include the `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` and `<h6>` tags. `<h1>` is the main heading and the reamining headings decrease in size, with `<h6>` beging the smallest. It's best practice to use the `<h1>` tage once per page, while the other tags can be used any number of times, but they should always be in order. In other words, `<h3>` should be a sub-heading of `<h2>` and `<h4>` should be a sub-heading of `<h3>`. Can you recognize the header in the HTML. 
-2. Paragraphs: The `<p>` tag is used for splitting content literally into seperate pargarphs. Each new `<p>` tag will appear on a new line.
+1. 
+2. 
 3. Ordered and Unordered Lists
 4. Links
-5. Images (attributes width="120" height="90")
+5. Images (attributes )
 
 ### Putting it all together.
 
