@@ -26,7 +26,9 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
   <body>
     <h1 id="my-header">Bees!</h1>
     <p>
+      <br/>
       <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg"/>
+      <br>
     </p>
   </body>
 </html>
@@ -37,7 +39,7 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 
 ### Elements, Tags, and Atrributes
 
-1. Tags form the structure of your page. They surround and apply *meaning* to content. There usually is an opening tag and then a closing tag, like - `<div></div>`. Some tags, like the `<img>` tag does not require a closing tag. It's best practice to add a `/` on the end of such tags.
+1. Tags form the structure of your page. They surround and apply *meaning* to content. There usually is an opening tag and then a closing tag, like - `<div></div>`. Some tags, like the `<img>` and '<br>` tags do not require a closing tag. Notice how I included one `<br>` tag with a `/` on the end. This was a best practice in previous versions HTML. HTML5, the version we are using, is much more relaxed and does not require a `/`, but it will work fine with it as well. It's really up to the developer.
 2. Elements represent the tags as well as whatever falls within the tags, like - `<h1>Hello, World!</h1>`
 3. Attributes (sometimes referred to as selectors) are used to select the tag for some purpose. In our case we are going to use them for defining styles. Selectors in most cases are either `id`s or `class`es. In the above example, notice the id `my-header`, which is associated with the `<img>` tag. We'll look more at this later
 
