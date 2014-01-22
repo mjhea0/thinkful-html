@@ -155,7 +155,7 @@ Your code should now look like this:
 </html>
 ```
 
-Then save the file. Check it out in your browser.
+Save the file. Check it out in your browser.
 
 See the difference? Yes, it's subtle - but the `<H1>`, or header, is a maroon color.
 
