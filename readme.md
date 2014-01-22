@@ -20,6 +20,7 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 <html>
   <head>
   	<title>My bumblebee website</title>
+  	<link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1 id="my-header">Bees!</h1>
@@ -56,11 +57,41 @@ CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML 
 
 ```css
 #my-header {
-  font-color: #660000;
+  color: #660000;
 }
 ```
 
 > Save this as "page1.css".
+
+Next, we need to "link" our HTML page and CSS stylesheet. To do so, add the following code to the `<head>` section of the HTML page just below the tile:
+
+```html
+<link rel="stylesheet" href="page1.css">
+```
+
+Your code should now look like this:
+
+```html
+<html>
+  <head>
+  	<title>My bumblebee website</title>
+  	<link rel="stylesheet" href="page1.css">
+  </head>
+  <body>
+    <h1 id="my-header">Bees!</h1>
+    <p>
+      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg"/>
+    </p>
+  </body>
+</html>
+```
+
+Check it out in your browser:
+
+![page2](page2.png)
+
+
+Then save the file as "page2.html".
 
 ## Your turn!
 
