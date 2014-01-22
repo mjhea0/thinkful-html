@@ -30,6 +30,9 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 </html>
 ```
 
+> Copy and paste this HTML code into your text editor and save the file as "page1.html".
+
+
 **Let's look at some of the elements in this simple example ..**
 
 1. Tags form the structure of your page. There usually is an opening tag and then a closing tag, like - `<div></div>`. Some tags, like the `<img>` tag does not require a closing tag. It's best practice to add a `/` on the end of such tags.
@@ -49,7 +52,8 @@ On to CSS ..
 While HTML provides, structure, CSS is used for styling, making webpages look nice. From the size of the text to the background colors to the positionging of HTML elements, CSS gives you control over almost every visual aspect of a page.
 
 
-CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML elements. For example:
+CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML elements. For example, remember this element from above - `<h1 id="my-header">Bees!</h1>`. Well, since their is an `id` selector associated with it, we can assign CSS styles to it using an external stylesheet.
+
 
 
 
