@@ -1,0 +1,11 @@
+body {
+  background-color: green; 
+}
+
+p {
+  font-size: 30px;
+}
+
+.list-style {
+  line-height: 25px;
+}
