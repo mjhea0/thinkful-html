@@ -281,7 +281,7 @@ What do you think? Good. Bad. Ugly? Change the color of the background and heade
 1. Create a basic HTML page with the doctype, html, head, and body tags
 2. Add a header (H1)
 3. Create an order list
-4. Add an external CSS file
+4. Add an external CSS file (make sure to link to the HTML page)
 4. Change the background color and font size
 4. Style the list
 
@@ -289,7 +289,7 @@ Show it off!
 
 ## Chrome Developer Tools
 
-Using Chrome Developer Tools, we can not only view how someone added, for example, a CSS selector to make the HTML text to appear to hoover - but it's also an excellent means of testing either HTML or CSS page directly from the browser. This can save a lot time
+Using Chrome Developer Tools, we can not only view how someone added, for example, a CSS selector to make the HTML text to appear to hoover - but it's also an excellent means of testing either HTML or CSS changes directly from the browser. This can save a lot time
 
 Open up the HTML page we worked on. Right Click on the first paragraph. Select "Inspect Element". Notice the styles on the right side of the Developer Tools pane. Do you see the styles associated with the first paragraph? Go ahead and change the size of the border from 2px to 20px: 
 
