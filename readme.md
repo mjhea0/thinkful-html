@@ -177,16 +177,7 @@ Save. Refresh.
 
 ### What's going on?
 
-Look back at the CSS file:
-
-```css
-body {
-  background-color: #FFFF00
-}
-
-#my-header {
-  color: #660000;
-```
+Look back at the CSS file.
 
 1. We have the `#my-header` *selector*, which is associated with the selector in our HTML document, followed by curly braces.
 2. Inside the curly braces, we have *properties*, which are descriptive words, like font-weight, font-size, or background color. In our case, we have `color`.
