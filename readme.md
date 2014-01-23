@@ -161,7 +161,7 @@ See the difference? Yes, it's subtle - but the `<h1>`, or main header, is a maro
 
 You can change certain elements even if they are not *explicitly* found within the HTML of the page, like the background color.
 
-Update your CSS file. Make sure to save it.
+Update your CSS file:
 
 ```css
 body {
