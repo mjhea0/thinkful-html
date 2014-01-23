@@ -291,7 +291,7 @@ Show it off!
 
 Using Chrome Developer Tools, we can not only view how someone added, for example, a CSS selector to make the HTML text to appear to hoover - but it's also an excellent means of testing either HTML or CSS changes directly from the browser. This can save a lot time
 
-Open up the HTML page we worked on. Right Click on the first paragraph. Select "Inspect Element". Notice the styles on the right side of the Developer Tools pane. Do you see the styles associated with the first paragraph? Go ahead and change the size of the border from 2px to 20px: 
+Open up the HTML page we worked on. Right Click on the first paragraph. Select "Inspect Element". Notice the styles on the right side of the Developer Tools pane associated with the paragraph. Do you see the styles associated with the first paragraph? Go ahead and change the size of the border from 2px to 20px: 
 
 ![html](/images/devtools.png)
 
