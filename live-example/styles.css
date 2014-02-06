@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+#my_list {
+  border-width: 2px;
+  border-color: white;
+  border-style: dashed;
+}
