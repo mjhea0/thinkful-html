@@ -1,3 +1,9 @@
+Developed in conjunction with [Thinkful](http://thinkful.com).
+
+![thinkful](https://raw.github.com/mjhea0/thinkful-html/master/logo.png)
+
+<hr>
+
 # Introduction to HTML and CSS
 
 Websites are made up of many things, but HTML (Hyper Text Markup Language) and CSS (Cascading Style Sheets) are two of the most important components. Together, they are the building blocks for every single webpage on the Internet.
