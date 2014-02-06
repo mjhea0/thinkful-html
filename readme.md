@@ -2,6 +2,8 @@ Developed in conjunction with [Thinkful](http://thinkful.com).
 
 ![thinkful](https://raw.github.com/mjhea0/thinkful-html/master/logo.png)
 
+Come code alone with me! Sign up [here](http://www.thinkful.com/a/mentorship-preview).
+
 <hr>
 
 # Introduction to HTML and CSS
