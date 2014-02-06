@@ -8,7 +8,7 @@ Now let's turn to an actual web page ..
 
 ## Requirements
 
-Before we start, you need a *source code editor*, which is simply a text editor designed specifically for writing source code. Some popular editors include Notepad++ (Windows), TextMate (Mac), and Gedit (cross-platform). For this exercise, please download the cross-platform editor [Sublime Text](http://www.sublimetext.com/2), which is an open-source editor designed for simplicity and ease of use.
+Before we start, you need a *source code editor*, which is simply a text editor designed specifically for writing source code. Some popular editors include Notepad++ (Windows), TextMate (Mac), and Gedit (cross-platform). For this exercise, please download the cross-platform editor [Sublime Text](http://www.sublimetext.com/2), which is an editor designed for simplicity and ease of use.
 
 Also, please make sure you have [Google Chrome](http://google.com/chrome) installed.
 
