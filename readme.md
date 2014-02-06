@@ -66,6 +66,7 @@ Two additional tags are lists (ordered `<ol>` and unordered `<ul>`) as well as l
 Let's add all the tags that were discussed.
 
 ```html
+<!DOCTYPE html>
 <html>
   <head>
     <title>My bumblebee website</title>
@@ -125,6 +126,7 @@ Next, we need to "link" our HTML page and CSS stylesheet. To do so, add the foll
 Your code should now look like this:
 
 ```html
+<!DOCTYPE html>
 <html>
   <head>
     <title>My bumblebee website</title>
@@ -196,6 +198,7 @@ Margins, padding, and borders are also good properties to go over since they app
 1. First, add some selectors to the HTML:
 
 ```html
+<!DOCTYPE html>
 <html>
   <head>
     <title>My bumblebee website</title>
