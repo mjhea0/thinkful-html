@@ -22,6 +22,39 @@ Also, please make sure you have [Google Chrome](http://google.com/chrome) instal
 
 HTML gives a web pages structure, allowing you to view it from a web browser:
 
+Start by adding some basic structure:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+```
+
+Copy and paste this basic webpage structure into your text editor. Save this file as *index.html*.
+
+This structure is commonly referred to as a boilerplate template. Such templates are used to speed up development so you don't have to code the features common to every single webpage each time you create a new page. Most boilerplates include more features (or boilerplate code), but let's start with the basics.
+
+### What's going on?
+
+1. The first line, `<!DOCTYPE html>` is the document type declaration, which tells the browser the version of HTML the page is using (HTML5, in our case). Without this, browsers can get confused, especially older versions of Internet Explorer. 
+2. `<html>` is the first tag and it informs the browser that all code between the opening and closing, `</html>`, tags is HTML. 
+3. The `<head>` tag contains links to CSS stylesheets and Javascript files that we wish to use in our web page, as well as meta information used by search engines for classification. In the above HTML, I used the `<title>` tag to give the web page a title.
+4. All code that falls within the `<body>` tags are part of the main content of the page, which will appear in the browser to the end user.
+
+This is how a standard HTML page is structured.
+
+Let's add four tags:
+
+1. title `<title>`
+2. heading `<h1>`
+3. img `<img>`
+4. break `<br>`
+
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -39,8 +72,6 @@ HTML gives a web pages structure, allowing you to view it from a web browser:
 </html>
 ```
 
-**Copy and paste this HTML code into your text editor and save the file as "index.html".**
-
 Open the page in Chrome; it should look like this:
 
 ![html](/images/index1.png)
@@ -48,20 +79,14 @@ Open the page in Chrome; it should look like this:
 
 ### Elements, Tags, and Attributes
 
-1. Tags form the structure of your page. They surround and apply *meaning* to content. There usually is an opening tag and then a closing tag, like - `<div></div>`, a divider. Some tags, like the `<img>` (image) and `<br>` (line break) tags do not require a closing tag. Notice how I included one `<br>` tag with a `/` on the end. This was a best practice in previous versions of HTML. HTML5, on the other hand - the version we are using - is much more relaxed and does not require a `/`, but it will work fine with it as well. It's really the developer's preference.
+1. Tags form the structure of your page. They surround and apply *meaning* to content. There usually is an opening tag and then a closing tag, like - `<div></div>`, a divider. Again, we are using the following tags:
+  - Title: `<title>` displays the title in the browser toolbar. It's also used for the title when its added to your browser's favorites and the title of your page for search engine results.
+  - Headings: These include the `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` and `<h6>` tags. `<h1>` is the main heading and the remaining headings decrease in size, with `<h6>` being the smallest. It's best practice to use the `<h1>` tag once per page, while the other tags can be used any number of times, but they should always be in order. In other words, `<h3>` should be a sub-heading of `<h2>` and `<h4>` should be a sub-heading of `<h3>`. Can you recognize the header in the HTML. 
+  - Paragraphs: The `<p>` tag is used for splitting content literally into separate paragraphs. Each new `<p>` tag will appear on a new line.
+  Some tags, like the `<img>` (image) and `<br>` (line break) tags do not require a closing tag. Notice how I included one `<br>` tag with a `/` on the end. This was a best practice in previous versions of HTML. HTML5, on the other hand - the version we are using - is much more relaxed and does not require a `/`, but it will work fine with it as well. It's really the developer's preference.
 2. Elements represent the tags as well as whatever falls between the opening and closing tags, like - `<title>My bumblebee website</title>`
 3. Attributes (sometimes referred to as selectors) are used to select the tag for some purpose. In our case we are going to use them for defining styles, when we get to CSS. Selectors in most cases are either `id`s or `class`es. In the above example, notice the id `my-header`, which is associated with the `<h1>` tag. We'll look more at this later. Further, we also use the attributes `width="240"` and  `height="180"`. These are defined using attributes directly within the HTML, or you can also place them in the CSS stylesheet. Again, more on this later.
 
-### What's going on?
-
-Back to the HTML ..
-
-1. The first line, `<!DOCTYPE html>` is the document type declaration, which tells the browser the version of HTML the page is using (HTML5, in our case). Without this, browsers can get confused, especially older versions of Internet Explorer. 
-2. `<html>` is the first tag and it informs the browser that all code between the opening and closing, `</html>`, tags is HTML. 
-3. The `<head>` tag contains links to CSS stylesheets and Javascript files that we wish to use in our web page, as well as meta information used by search engines for classification. In the above HTML, I used the `<title>` tag to give the web page a title.
-4. All code that falls within the `<body>` tags are part of the main content of the page, which will appear in the browser to the end user.
-5. Headers: These include the `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` and `<h6>` tags. `<h1>` is the main heading and the remaining headings decrease in size, with `<h6>` being the smallest. It's best practice to use the `<h1>` tag once per page, while the other tags can be used any number of times, but they should always be in order. In other words, `<h3>` should be a sub-heading of `<h2>` and `<h4>` should be a sub-heading of `<h3>`. Can you recognize the header in the HTML. 
-6. Paragraphs: The `<p>` tag is used for splitting content literally into separate paragraphs. Each new `<p>` tag will appear on a new line.
 
 ### Additional Tags
 
