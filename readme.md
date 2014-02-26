@@ -84,8 +84,7 @@ Open the page in Chrome; it should look like this:
 1. Tags form the structure of your page. They surround and apply *meaning* to content. There usually is an opening tag and then a closing tag, like - `<div></div>`, a divider. Again, we are using the following tags:
   - Title: `<title>` displays the title in the browser toolbar. It's also used for the title when its added to your browser's favorites and the title of your page for search engine results.
   - Headings: These include the `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` and `<h6>` tags. `<h1>` is the main heading and the remaining headings decrease in size, with `<h6>` being the smallest. It's best practice to use the `<h1>` tag once per page, while the other tags can be used any number of times, but they should always be in order. In other words, `<h3>` should be a sub-heading of `<h2>` and `<h4>` should be a sub-heading of `<h3>`. Can you recognize the header in the HTML. 
-  - Paragraphs: The `<p>` tag is used for splitting content literally into separate paragraphs. Each new `<p>` tag will appear on a new line.
-  Some tags, like the `<img>` (image) and `<br>` (line break) tags do not require a closing tag. Notice how I included one `<br>` tag with a `/` on the end. This was a best practice in previous versions of HTML. HTML5, on the other hand - the version we are using - is much more relaxed and does not require a `/`, but it will work fine with it as well. It's really the developer's preference.
+  -Some tags, like the `<img>` (image) and `<br>` (line break) tags do not require a closing tag. Notice how I included one `<br>` tag with a `/` on the end. This was a best practice in previous versions of HTML. HTML5, on the other hand - the version we are using - is much more relaxed and does not require a `/`, but it will work fine with it as well. It's really the developer's preference.
 2. Elements represent the tags as well as whatever falls between the opening and closing tags, like - `<title>My bumblebee website</title>`
 3. Attributes (sometimes referred to as selectors) are used to select the tag for some purpose. In our case we are going to use them for defining styles, when we get to CSS. Selectors in most cases are either `id`s or `class`es. In the above example, notice the id `my-header`, which is associated with the `<h1>` tag. We'll look more at this later. Further, we also use the attributes `width="240"` and  `height="180"`. These are defined using attributes directly within the HTML, or you can also place them in the CSS stylesheet. Again, more on this later.
 
@@ -132,6 +131,8 @@ Updated code:
 ```
 
 #### Paragraph
+
+Paragraphs: The `<p>` tag is used for splitting content literally into separate paragraphs. Each new `<p>` tag will appear on a new line.
 
 ```html
 <p>A bumblebee is any member of the bee genus Bombus, in the family Apidae. There are over 250 known species, existing primarily in the Northern Hemisphere although they also occur in South America. They have been introduced to New Zealand and the Australian state of Tasmania.</p>
