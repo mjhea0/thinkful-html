@@ -98,18 +98,77 @@ Two additional tags are lists (ordered `<ol>` and unordered `<ul>`) as well as l
 
 Let's add all the tags that were discussed.
 
-1. `<h2>Wonder, wonderful bumblebees</h2>`
-2. `<h2>About the Bumblebee</h2>`
-3. `<h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>`
-4. `<p>A bumblebee is any member of the bee genus Bombus, in the family Apidae. There are over 250 known species, existing primarily in the Northern Hemisphere although they also occur in South America. They have been introduced to New Zealand and the Australian state of Tasmania.</p>`
-5. `<h2>Types of Bees:</h2>`
-6. `<ol>
-      <li>Southern plains bumblebee</li>
-      <li>New garden bumblebee</li>
-      <li>Early bumblebee</li>
-      <li>Orange-belted bumblebee</li>
-      <li>Buff-tailed bumblebee or large earth bumblebee</li>
-    </ol>`
+#### Headings
+
+```html
+<h2>Wonder, wonderful bumblebees</h2>
+<h2>About the Bumblebee</h2>
+<h2>Types of Bees:</h2>
+<h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>
+```
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My bumblebee website</title>
+  </head>
+  <body>
+    <h1 id="my-header">Bees!</h1>
+    <h2>Wonder, wonderful bumblebees</h2>
+    <p>
+      <br/>
+      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg" width="240" height="180"/>
+      <br>
+    </p>
+    <h2>About the Bumblebee</h2>
+      <h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>
+    <br>
+    <h2>Types of Bees:</h2>
+  </body>
+</html>
+```
+
+#### Paragraph
+
+```html
+<p>A bumblebee is any member of the bee genus Bombus, in the family Apidae. There are over 250 known species, existing primarily in the Northern Hemisphere although they also occur in South America. They have been introduced to New Zealand and the Australian state of Tasmania.</p>
+```
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My bumblebee website</title>
+  </head>
+  <body>
+    <h1 id="my-header">Bees!</h1>
+    <h2>Wonder, wonderful bumblebees</h2>
+    <p>
+      <br/>
+      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg" width="240" height="180"/>
+      <br>
+    </p>
+    <h2>About the Bumblebee</h2>
+      <h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>
+      <p>A bumblebee is any member of the bee genus Bombus, in the family Apidae. There are over 250 known species, existing primarily in the Northern Hemisphere although they also occur in South America. They have been introduced to New Zealand and the Australian state of Tasmania.</p>
+    <br>
+    <h2>Types of Bees:</h2>
+  </body>
+</html>
+```
+
+#### Ordered Lists
+
+```html
+<ol>
+  <li>Southern plains bumblebee</li>
+  <li>New garden bumblebee</li>
+  <li>Early bumblebee</li>
+  <li>Orange-belted bumblebee</li>
+  <li>Buff-tailed bumblebee or large earth bumblebee</li>
+</ol>
+```
 
 ```html
 <!DOCTYPE html>
