@@ -107,6 +107,8 @@ Let's add all the tags that were discussed.
 <h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>
 ```
 
+Updated code:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -134,6 +136,8 @@ Let's add all the tags that were discussed.
 ```html
 <p>A bumblebee is any member of the bee genus Bombus, in the family Apidae. There are over 250 known species, existing primarily in the Northern Hemisphere although they also occur in South America. They have been introduced to New Zealand and the Australian state of Tasmania.</p>
 ```
+
+Updated code:
 
 ```html
 <!DOCTYPE html>
@@ -169,6 +173,8 @@ Let's add all the tags that were discussed.
   <li>Buff-tailed bumblebee or large earth bumblebee</li>
 </ol>
 ```
+
+Updated code:
 
 ```html
 <!DOCTYPE html>
