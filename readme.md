@@ -385,6 +385,8 @@ What do you think? Good. Bad. Ugly? Change the color of the background and heade
 
 ## Your turn!
 
+While I provide a brief review, work along with me to develop your own basic site. 
+
 1. Create a basic HTML page with the doctype, html, head, and body tags
 2. Add a header (H1)
 3. Create an order list
