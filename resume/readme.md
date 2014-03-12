@@ -144,7 +144,7 @@ Updated code:
     <img src="http://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg">
     <br>
     <h2>History and Profile</h2>
-    <p>I am a fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
+    <p>I am a fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armor and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
     <h2>Education</h2>
     <h2>Work History</h2>
     <h2>Skillset</h2>
@@ -176,7 +176,7 @@ and
 ```html
 <ul>
   <li>His Excellency Palpatine I, Emperor of the Galaxy - Major General</li>
-  <li>The Jedi Order - Liason to the Supreme Chancellor</li>
+  <li>The Jedi Order - Liaison to the Supreme Chancellor</li>
   <li>Watto's Junk Dealership - electronics repair</li>
 </ul>
 ```
@@ -225,7 +225,7 @@ Updated code:
     <h2>Work History</h2>
     <ul>
       <li>His Excellency Palpatine I, Emperor of the Galaxy - Major General</li>
-      <li>The Jedi Order - Liason to the Supreme Chancellor</li>
+      <li>The Jedi Order - Liaison to the Supreme Chancellor</li>
       <li>Watto's Junk Dealership - electronics repair</li>
     </ul>
     <h2>Skillset</h2>
@@ -299,7 +299,7 @@ Your code should now look like this:
     <h2>Work History</h2>
     <ul>
       <li>His Excellency Palpatine I, Emperor of the Galaxy - Major General</li>
-      <li>The Jedi Order - Liason to the Supreme Chancellor</li>
+      <li>The Jedi Order - Liaison to the Supreme Chancellor</li>
       <li>Watto's Junk Dealership - electronics repair</li>
     </ul>
     <h2>Skillset</h2>
@@ -341,7 +341,7 @@ Save. Refresh.
 
 Look back at the CSS file.
 
-1. We have the `#heding` *selector*, which is associated with the selector in our HTML document, followed by curly braces.
+1. We have the `#heading` *selector*, which is associated with the selector in our HTML document, followed by curly braces.
 2. Inside the curly braces, we have *properties*, which are descriptive words, like font-weight, font-size, or background color. In our case, we have `color`.
 3. *Values* are then assigned to each property, which are preceded by a colon and followed by a semi-colon. [http://cssvalues.com/](http://cssvalues.com/) is an excellent resource for finding the acceptable values given a CSS property. I use this almost everyday.
 
@@ -355,11 +355,11 @@ Margins, padding, and borders are also good properties to go over since they app
 
 ### Putting it all together
 
-1. First, let's add a boostrap stylesheet via a content delivery network, which is a online repository of commonly used Javascript and CSS files. There are a number of free CDNs available. It's a good practice to use a CDN in your production code, as many of the files are pre-cached, so your site will actually load faster.
+1. First, let's add a bootstrap stylesheet via a content delivery network, which is a online repository of commonly used Javascript and CSS files. There are a number of free CDNs available. It's a good practice to use a CDN in your production code, as many of the files are pre-cached, so your site will actually load faster.
 
   Bootstrap, meanwhile, is a powerful front-end framework. You can create a responsive site that looks good on all devices in no time at all. 
 
-  Add the link to boostrap to your HTML.
+  Add the link to bootstrap to your HTML.
 
   ```html
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.1.1/cyborg/bootstrap.min.css">
