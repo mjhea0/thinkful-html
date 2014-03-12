@@ -80,7 +80,6 @@ Open the page in Chrome; it should look like this:
 2. Elements represent the tags as well as whatever falls between the opening and closing tags, like - `<title>Resume: Darth Vader, Lord of the Sith</title>`
 3. Attributes (sometimes referred to as selectors) are used to select the tag for some purpose. In our case we are going to use them for defining styles, when we get to CSS. Selectors in most cases are either `id`s or `class`es. In the above example, notice the id `header`, which is associated with the `<h1>` tag. We'll look more at this later.
 
-
 ### Additional Tags
 
 Two additional tags are lists (ordered `<ol>` and unordered `<ul>`) as well as links `<a href>`. Look these up on your own. Mozilla has an excellent reference guide [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list).
@@ -92,10 +91,10 @@ Let's add all the tags that were discussed.
 #### Headings
 
 ```html
-<h2>Wonder, wonderful bumblebees</h2>
-<h2>About the Bumblebee</h2>
-<h2>Types of Bees:</h2>
-<h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>
+<h2>History and Profile</h2>
+<h2>Education</h2>
+<h2>Work History</h2>
+<h2>Skillset</h2>
 ```
 
 Updated code:
@@ -104,20 +103,18 @@ Updated code:
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My bumblebee website</title>
+    <title>Resume: Darth Vader, Lord of the Sith</title>
   </head>
   <body>
-    <h1 id="my-header">Bees!</h1>
-    <h2>Wonder, wonderful bumblebees</h2>
-    <p>
-      <br/>
-      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg" width="240" height="180"/>
-      <br>
-    </p>
-    <h2>About the Bumblebee</h2>
-      <h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>
+    <h1 id="heading">Darth Vader</h1>
+    <p>Lord of the Sith</p>
+    <br/>
+    <img src="http://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg">
     <br>
-    <h2>Types of Bees:</h2>
+    <h2>History and Profile</h2>
+    <h2>Education</h2>
+    <h2>Work History</h2>
+    <h2>Skillset</h2>
   </body>
 </html>
 ```
@@ -127,7 +124,7 @@ Updated code:
 Paragraphs: The `<p>` tag is used for splitting content literally into separate paragraphs. Each new `<p>` tag will appear on a new line.
 
 ```html
-<p>A bumblebee is any member of the bee genus Bombus, in the family Apidae. There are over 250 known species, existing primarily in the Northern Hemisphere although they also occur in South America. They have been introduced to New Zealand and the Australian state of Tasmania.</p>
+<p>I am fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
 ```
 
 Updated code:
@@ -136,35 +133,66 @@ Updated code:
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My bumblebee website</title>
+    <title>Resume: Darth Vader, Lord of the Sith</title>
   </head>
   <body>
-    <h1 id="my-header">Bees!</h1>
-    <h2>Wonder, wonderful bumblebees</h2>
-    <p>
-      <br/>
-      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg" width="240" height="180"/>
-      <br>
-    </p>
-    <h2>About the Bumblebee</h2>
-      <h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>
-      <p>A bumblebee is any member of the bee genus Bombus, in the family Apidae. There are over 250 known species, existing primarily in the Northern Hemisphere although they also occur in South America. They have been introduced to New Zealand and the Australian state of Tasmania.</p>
+    <h1 id="heading">Darth Vader</h1>
+    <p>Lord of the Sith</p>
+    <br/>
+    <img src="http://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg">
     <br>
-    <h2>Types of Bees:</h2>
+    <h2>History and Profile</h2>
+    <p>I am fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
+    <h2>Education</h2>
+    <h2>Work History</h2>
+    <h2>Skillset</h2>
   </body>
 </html>
 ```
 
-#### Ordered Lists
+#### Unordered Lists
 
 ```html
-<ol>
-  <li>Southern plains bumblebee</li>
-  <li>New garden bumblebee</li>
-  <li>Early bumblebee</li>
-  <li>Orange-belted bumblebee</li>
-  <li>Buff-tailed bumblebee or large earth bumblebee</li>
-</ol>
+<ul>
+  <li>Imperial Palace, 000-001</li>
+  <li>Hololink: 655321-666</li>
+  <li>lordvader@gmail.com</li>
+</ul>
+```
+
+and
+
+```html
+<ul>
+  <li>Jedi Academy, Master warrior-monk and basket weaving</li>
+  <li>Obi-Wan Kenobi School of Training, Jedi Training</li>
+</ul>
+```
+
+and
+
+```html
+<ul>
+  <li>His Excellency Palpatine I, Emperor of the Galaxy - Major General</li>
+  <li>The Jedi Order - Liason to the Supreme Chancellor<li>
+  <li>Watto's Junk Dealership - electronics repair<li>
+</ul>
+```
+
+and
+
+
+```html
+<ul>
+  <li>Oppressing the Galaxy</li>
+  <li>Great Physical Strength</li>
+  <li>Mastery of the Force</li>
+  <li>Lightsaber Duels</li>
+  <li>Team Leadership</li>
+  <li>Imperial Weapons Research</li>
+  <li>Ruby Scripting Ninja</li>
+  <li>Master pick-pocketter</li>
+</ul>
 ```
 
 Updated code:
@@ -173,35 +201,49 @@ Updated code:
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My bumblebee website</title>
+    <title>Resume: Darth Vader, Lord of the Sith</title>
   </head>
   <body>
-    <h1 id="my-header">Bees!</h1>
-    <h2>Wonder, wonderful bumblebees</h2>
-    <p>
-      <br/>
-      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg" width="240" height="180"/>
-      <br>
-    </p>
-    <h2>About the Bumblebee</h2>
-      <h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>
-      <p>A bumblebee is any member of the bee genus Bombus, in the family Apidae. There are over 250 known species, existing primarily in the Northern Hemisphere although they also occur in South America. They have been introduced to New Zealand and the Australian state of Tasmania.</p>
+    <h1 id="heading">Darth Vader</h1>
+    <p>Lord of the Sith</p>
+    <ul>
+      <li>Imperial Palace, 000-001</li>
+      <li>Hololink: 655321-666</li>
+      <li>lordvader@gmail.com</li>
+    </ul>
+    <br/>
+    <img src="http://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg">
     <br>
-    <h2>Types of Bees:</h2>
-      <ol>
-        <li>Southern plains bumblebee</li>
-        <li>New garden bumblebee</li>
-        <li>Early bumblebee</li>
-        <li>Orange-belted bumblebee</li>
-        <li>Buff-tailed bumblebee or large earth bumblebee</li>
-      </ol>
+    <h2>History and Profile</h2>
+    <p>I am fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
+    <h2>Education</h2>
+    <ul>
+      <li>Jedi Academy, Master warrior-monk and basket weaving</li>
+      <li>Obi-Wan Kenobi School of Training, Jedi Training</li>
+    </ul>
+    <h2>Work History</h2>
+    <ul>
+      <li>His Excellency Palpatine I, Emperor of the Galaxy - Major General</li>
+      <li>The Jedi Order - Liason to the Supreme Chancellor<li>
+      <li>Watto's Junk Dealership - electronics repair<li>
+    </ul>
+    <h2>Skillset</h2>
+    <ul>
+      <li>Oppressing the Galaxy</li>
+      <li>Great Physical Strength</li>
+      <li>Mastery of the Force</li>
+      <li>Lightsaber Duels</li>
+      <li>Team Leadership</li>
+      <li>Imperial Weapons Research</li>
+      <li>Ruby Scripting Ninja</li>
+      <li>Master pick-pocketter</li>
+    </ul>
   </body>
 </html>
 ```
 
-Check it out in your browser. Add some more elements, or let's move on to CSS so we can make the site look better.
+Check it out in your browser. Add some more elements. Or: jump right to CSS ...
 
-On to CSS ..
 
 ## CSS
 
