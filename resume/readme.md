@@ -181,7 +181,6 @@ and
 
 and
 
-
 ```html
 <ul>
   <li>Oppressing the Galaxy</li>
@@ -372,52 +371,53 @@ Margins, padding, and borders are also good properties to go over since they app
   <p class="lead">Lord of the Sith</p>
   ```
 
-3. 
+3. Add some dividers:
+
+  ```html
+  <div class="container"></div>
+  <div class="row"></div>
+  <div class="col-md-6">
+  ```
+
+  First, we're adding a a `.container`, which literally contains the all the page content. Then we are using the bootstrap [grid](http://getbootstrap.com/css/#grid) system. See the link for more details. 
 
 3. Now, let's update the CSS file.
 
   ```html
-  /* this is a comment */
-
   body {
-    font-family: arial, helvetica, sans-serif;
-    background-color: #FFFF00;
-    max-width: 500px;
-    text-align: center;
+    background-color: pink;
+    font-family: 'Titillium Web', sans-serif;
   }
 
-  p {
-    line-height: 20px;
+  h1, h2 {
+    font-family: 'Titillium Web', sans-serif;
   }
 
-  h1 {
+  #heading {
+    font-size: 4em;
+    color: pink;
+  }
+
+  .lead {
     font-style: italic;
-    text-transform: uppercase;
   }
 
-  #my-header {
-    color: #660000;
+  .container {
+    padding: 50px;
+    max-width: 800px;
+    background-color: black;
   }
+  ```
 
-  #first-paragraph {
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #000000;
-  }
+  Make sure to add the font to the `<head>`: 
 
-
-  .even {
-   font-style: italic;
-  }
-
-  .odd {
-    color: red;
-  }
+  ```html
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
   ```
 
 Save. Refresh your browser.
 
-What do you think? Good. Bad. Ugly? Change the color of the background and header on your end. The [color picker](http://color.hailpixel.com/) is nice for finding colors. [Update](http://www.flickr.com/) the picture, too, if you want. 
+What do you think? Good. Bad. Ugly? Change the color of the background and header on your end. The [color picker](http://color.hailpixel.com/) is nice for finding colors.
 
 ## Your turn!
 
@@ -425,7 +425,7 @@ While I provide a brief review, work along with me to develop your own basic sit
 
 1. Create a basic HTML page with the doctype, html, head, and body tags
 2. Add a header (H1)
-3. Create an order list
+3. Create an ordered list
 4. Add an external CSS file (make sure to link to the HTML page)
 4. Change the background color and font size
 4. Style the list
@@ -436,9 +436,7 @@ Show it off!
 
 Using Chrome Developer Tools, we can not only view how someone added, for example, a CSS selector to make the HTML text to appear to hoover - but it's also an excellent means of testing either HTML or CSS changes directly from the browser. This can save a lot time
 
-Open up the HTML page we worked on. Right Click on the first paragraph. Select "Inspect Element". Notice the styles on the right side of the Developer Tools pane associated with the paragraph. Do you see the styles associated with the first paragraph? Go ahead and change the size of the border from 2px to 20px: 
-
-![html](/images/devtools.png)
+Open up the HTML page we worked on. Right Click on the first paragraph. Select "Inspect Element". Notice the styles on the right side of the Developer Tools pane associated with the paragraph. Do you see the styles associated with the first paragraph? Go ahead and change the size of the text.
 
 Change the color of the even rows from black to something super cool.
 
