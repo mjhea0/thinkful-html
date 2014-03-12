@@ -47,7 +47,7 @@ Let's add four tags:
 
 1. title `<title>`
 2. heading `<h1>`
-3. paragraph `<p>
+3. paragraph `<p>`
 4. img `<img>`
 5. break `<br>`
 
