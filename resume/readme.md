@@ -124,7 +124,7 @@ Updated code:
 Paragraphs: The `<p>` tag is used for splitting content literally into separate paragraphs. Each new `<p>` tag will appear on a new line.
 
 ```html
-<p>I am fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
+<p>I am a fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
 ```
 
 Updated code:
@@ -142,7 +142,7 @@ Updated code:
     <img src="http://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg">
     <br>
     <h2>History and Profile</h2>
-    <p>I am fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
+    <p>I am a fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
     <h2>Education</h2>
     <h2>Work History</h2>
     <h2>Skillset</h2>
@@ -215,7 +215,7 @@ Updated code:
     <img src="http://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg">
     <br>
     <h2>History and Profile</h2>
-    <p>I am fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
+    <p>I am a fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
     <h2>Education</h2>
     <ul>
       <li>Jedi Academy, Master warrior-monk and basket weaving</li>
@@ -289,7 +289,7 @@ Your code should now look like this:
     <img src="http://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg">
     <br>
     <h2>History and Profile</h2>
-    <p>I am fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
+    <p>I am a fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
     <h2>Education</h2>
     <ul>
       <li>Jedi Academy, Master warrior-monk and basket weaving</li>
@@ -371,6 +371,8 @@ Margins, padding, and borders are also good properties to go over since they app
   ```html
   <p class="lead">Lord of the Sith</p>
   ```
+
+3. 
 
 3. Now, let's update the CSS file.
 
