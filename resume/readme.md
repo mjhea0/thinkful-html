@@ -1,5 +1,7 @@
 # Creating an Online Resume: An Introduction to HTML and CSS
 
+![resume](https://raw.github.com/mjhea0/thinkful-html/master/resume/images/resume2.png)
+
 Websites are made up of many things, but HTML (Hyper Text Markup Language) and CSS (Cascading Style Sheets) are two of the most important components. Together, they are the building blocks for every single webpage on the Internet.
 
 Think of a car. It, too, is made up of many attributes. Doors. Windows. Tires. Seats. In the world of HTML, these are the `elements` of a webpage. Meanwhile, each of the car's attributes are usually different. Perhaps they differ by size. Or color. Or wear and tear. These attributes are used to define how the `elements` look. Back in the world of webpages, CSS is used to define the look and feel of a webpage.
@@ -68,7 +70,7 @@ Let's add four tags:
 
 Open the page in Chrome; it should look like this:
 
-![resume1](/images/resume1.png)
+![resume1](https://raw.github.com/mjhea0/thinkful-html/master/resume/images/resume1.png)
 
 
 ### Elements, Tags, and Attributes
