@@ -1,0 +1,10 @@
+body {
+  background-color: yellow;
+}
+
+#heading {
+  color: pink;
+}
+.lead {
+  font-style: italic;
+}

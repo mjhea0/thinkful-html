@@ -174,8 +174,8 @@ and
 ```html
 <ul>
   <li>His Excellency Palpatine I, Emperor of the Galaxy - Major General</li>
-  <li>The Jedi Order - Liason to the Supreme Chancellor<li>
-  <li>Watto's Junk Dealership - electronics repair<li>
+  <li>The Jedi Order - Liason to the Supreme Chancellor</li>
+  <li>Watto's Junk Dealership - electronics repair</li>
 </ul>
 ```
 
@@ -224,8 +224,8 @@ Updated code:
     <h2>Work History</h2>
     <ul>
       <li>His Excellency Palpatine I, Emperor of the Galaxy - Major General</li>
-      <li>The Jedi Order - Liason to the Supreme Chancellor<li>
-      <li>Watto's Junk Dealership - electronics repair<li>
+      <li>The Jedi Order - Liason to the Supreme Chancellor</li>
+      <li>Watto's Junk Dealership - electronics repair</li>
     </ul>
     <h2>Skillset</h2>
     <ul>
@@ -250,22 +250,22 @@ Check it out in your browser. Add some more elements. Or: jump right to CSS ...
 While HTML provides, structure, CSS is used for styling, making webpages look nice. From the size of the text to the background colors to the positioning of HTML elements, CSS gives you control over almost every visual aspect of a page.
 
 
-CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML elements. For example, remember this element from above - `<h1 id="my-header">Bees!</h1>`. Well, since there is an `id` selector associated with it, we can assign CSS styles to it using an external stylesheet.
+CSS and HTML work in tandem. CSS styles (or rules) are applied directly to HTML elements. For example, remember this element from above - `<h1 id="heading">Darth Vader</h1>`. Well, since there is an `id` selector associated with it, we can assign CSS styles to it using an external stylesheet.
 
 ```css
-#my-header {
-  color: #660000;
+#heading {
+  color: pink;
 }
 ```
 
-**Save this as "styles.css".**
+**Save this as "main.css".**
 
 > There are three ways that you can assign styles to HTML tags. Inline. Internal. Or External. Inline styles are placed directly in the tag; these should be avoided, though, as it's best practice to keep HTML and CSS styles separated (don't mix structure with presentation!). Internal styles fall within the head of a website. Again, these should be avoided as well due to reasons mentioned before. Read more about this [here](http://www.w3schools.com/css/css_howto.asp).
 
 Next, we need to "link" our HTML page and CSS stylesheet. To do so, add the following code to the `<head>` section of the HTML page just below the title:
 
 ```html
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="main.css">
 ```
 
 Your code should now look like this:
@@ -274,36 +274,51 @@ Your code should now look like this:
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My bumblebee website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Resume: Darth Vader, Lord of the Sith</title>
   </head>
   <body>
-    <h1 id="my-header">Bees!</h1>
-    <h2>Wonder, wonderful bumblebees</h2>
-    <p>
-      <br/>
-      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg" width="240" height="180"/>
-      <br>
-    </p>
-    <h2>About the Bumblebee</h2>
-      <h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>
-      <p>A bumblebee is any member of the bee genus Bombus, in the family Apidae. There are over 250 known species, existing primarily in the Northern Hemisphere although they also occur in South America. They have been introduced to New Zealand and the Australian state of Tasmania.</p>
+    <h1 id="heading">Darth Vader</h1>
+    <p>Lord of the Sith</p>
+    <ul>
+      <li>Imperial Palace, 000-001</li>
+      <li>Hololink: 655321-666</li>
+      <li>lordvader@gmail.com</li>
+    </ul>
+    <br/>
+    <img src="http://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg">
     <br>
-    <h2>Types of Bees:</h2>
-      <ol>
-        <li>Southern plains bumblebee</li>
-        <li>New garden bumblebee</li>
-        <li>Early bumblebee</li>
-        <li>Orange-belted bumblebee</li>
-        <li>Buff-tailed bumblebee or large earth bumblebee</li>
-      </ol>
+    <h2>History and Profile</h2>
+    <p>I am fearsome cyborg with extensive experience gained as the supreme commander of the Galactic Empire. I successfully delivered the largest strategic initiative within the Star Wars universe, working in partnership with Emperor Palpatine and other key stakeholders to bring the project in on time and within budget, twice because of that cursed rebellion. With a powerful bass voice, imposing body armour and signature respiratory breathing, I am able to use my influence at all levels, whether leading Imperial subordinates, devastating estranged family members, or crushing the Rebel Alliance.</p>
+    <h2>Education</h2>
+    <ul>
+      <li>Jedi Academy, Master warrior-monk and basket weaving</li>
+      <li>Obi-Wan Kenobi School of Training, Jedi Training</li>
+    </ul>
+    <h2>Work History</h2>
+    <ul>
+      <li>His Excellency Palpatine I, Emperor of the Galaxy - Major General</li>
+      <li>The Jedi Order - Liason to the Supreme Chancellor</li>
+      <li>Watto's Junk Dealership - electronics repair</li>
+    </ul>
+    <h2>Skillset</h2>
+    <ul>
+      <li>Oppressing the Galaxy</li>
+      <li>Great Physical Strength</li>
+      <li>Mastery of the Force</li>
+      <li>Lightsaber Duels</li>
+      <li>Team Leadership</li>
+      <li>Imperial Weapons Research</li>
+      <li>Ruby Scripting Ninja</li>
+      <li>Master pick-pocketter</li>
+    </ul>
   </body>
 </html>
 ```
 
 Save the file. Check it out in your browser.
 
-See the difference? Yes, it's subtle - but the `<h1>`, or main header, is a maroon color.
+See the difference? 
 
 You can change certain elements even if they are not *explicitly* found within the HTML of the page, like the background color.
 
@@ -311,11 +326,11 @@ Update your CSS file:
 
 ```css
 body {
-  background-color: #FFFF00
+  background-color: yellow;
 }
 
-#my-header {
-  color: #660000;
+#heading {
+  color: pink;
 }
 ```
 
@@ -325,7 +340,7 @@ Save. Refresh.
 
 Look back at the CSS file.
 
-1. We have the `#my-header` *selector*, which is associated with the selector in our HTML document, followed by curly braces.
+1. We have the `#heding` *selector*, which is associated with the selector in our HTML document, followed by curly braces.
 2. Inside the curly braces, we have *properties*, which are descriptive words, like font-weight, font-size, or background color. In our case, we have `color`.
 3. *Values* are then assigned to each property, which are preceded by a colon and followed by a semi-colon. [http://cssvalues.com/](http://cssvalues.com/) is an excellent resource for finding the acceptable values given a CSS property. I use this almost everyday.
 
@@ -339,79 +354,64 @@ Margins, padding, and borders are also good properties to go over since they app
 
 ### Putting it all together
 
-1. First, add some selectors to the HTML:
+1. First, let's add a boostrap stylesheet via a content delivery network, which is a online repository of commonly used Javascript and CSS files. There are a number of free CDNs available. It's a good practice to use a CDN in your production code, as many of the files are pre-cached, so your site will actually load faster.
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My bumblebee website</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1 id="my-header">Bees!</h1>
-    <h2>Wonder, wonderful bumblebees</h2>
-    <p>
-      <br/>
-      <img src="http://farm4.staticflickr.com/3775/12059206813_e37135c9cf_z.jpg" width="240" height="180"/>
-      <br>
-    </p>
-    <h2>About the Bumblebee</h2>
-      <h3>(From <a href="http://en.wikipedia.org/wiki/Bumblebee">Wikipedia)</a></h3>
-      <p id="first-paragraph">A bumblebee is any member of the bee genus Bombus, in the family Apidae. There are over 250 known species, existing primarily in the Northern Hemisphere although they also occur in South America. They have been introduced to New Zealand and the Australian state of Tasmania.</p>
-    <br>
-    <h2>Types of Bees:</h2>
-      <ol>
-        <li class="odd">Southern plains bumblebee</li>
-        <li class="even">New garden bumblebee</li>
-        <li class="odd">Early bumblebee</li>
-        <li class="even">Orange-belted bumblebee</li>
-        <li class="odd">Buff-tailed bumblebee or large earth bumblebee</li>
-      </ol>
-  </body>
-</html>
-```
+  Bootstrap, meanwhile, is a powerful front-end framework. You can create a responsive site that looks good on all devices in no time at all. 
 
-Now, let's update the CSS file.
+  Add the link to boostrap to your HTML.
 
-```html
-/* this is a comment */
+  ```html
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.1.1/cyborg/bootstrap.min.css">
+  ```
 
-body {
-  font-family: arial, helvetica, sans-serif;
-  background-color: #FFFF00;
-  max-width: 500px;
-  text-align: center;
-}
+  Take a look at your page. That's just from adding one line of code!
 
-p {
-  line-height: 20px;
-}
+2. Add one selector to the HTML:
 
-h1 {
-  font-style: italic;
-  text-transform: uppercase;
-}
+  ```html
+  <p class="lead">Lord of the Sith</p>
+  ```
 
-#my-header {
-  color: #660000;
-}
+3. Now, let's update the CSS file.
 
-#first-paragraph {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #000000;
-}
+  ```html
+  /* this is a comment */
+
+  body {
+    font-family: arial, helvetica, sans-serif;
+    background-color: #FFFF00;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  p {
+    line-height: 20px;
+  }
+
+  h1 {
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  #my-header {
+    color: #660000;
+  }
+
+  #first-paragraph {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #000000;
+  }
 
 
-.even {
- font-style: italic;
-}
+  .even {
+   font-style: italic;
+  }
 
-.odd {
-  color: red;
-}
-```
+  .odd {
+    color: red;
+  }
+  ```
 
 Save. Refresh your browser.
 
