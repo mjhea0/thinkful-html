@@ -1,0 +1,13 @@
+body {
+  background-color: red;
+  font-size: 20px;
+}
+
+.odd {
+  font-style: italic;
+}
+
+
+.even {
+  color: white;
+}
