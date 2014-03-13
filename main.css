@@ -1,0 +1,24 @@
+body {
+  background-color: pink;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#heading {
+  font-size: 4em;
+  color: pink;
+}
+
+.lead {
+  font-style: italic;
+}
+
+.container {
+  padding: 50px;
+  max-width: 800px;
+  background-color: black;
+}
+
