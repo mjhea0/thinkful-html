@@ -1,0 +1,24 @@
+body {
+	font-size: 14px;
+	font-family: verdana, sans-serif;
+	background-color: #d3d3d3;
+}
+
+
+#logo {
+	width: 100px;
+	height: 200px;
+}
+
+.heading {
+	color: blue;
+	text-decoration: underline;
+
+}
+
+#container {
+	padding: 50px;
+	max-width: 700px;
+	background-color: #ffc0cb;
+	margin: auto;
+}
