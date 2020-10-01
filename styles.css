@@ -1,6 +1,8 @@
 /* this is a comment */
 
 body {
+  margin:0;
+  padding:0;
   font-family: arial, helvetica, sans-serif;
   background-color: #FFFF00;
   max-width: 500px;
