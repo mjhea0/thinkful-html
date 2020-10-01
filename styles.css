@@ -1,16 +1,24 @@
 /* this is a comment */
 
 body {
-  font-family: arial, helvetica, sans-serif;
-  background-color: #FFFF00;
+ background-color: #2fde;
   max-width: 500px;
   text-align: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 p {
   line-height: 20px;
 }
-
+.cont
+{
+   width: 100%;  
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0px 0px 50px -20px;
+}
 h1 {
   font-style: italic;
   text-transform: uppercase;
