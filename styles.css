@@ -1,41 +1,48 @@
 /* this is a comment */
 
 body {
-  font-family: arial, helvetica, sans-serif;
-  background-color: #FFFF00;
-  max-width: 500px;
-  text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    background-color: #b2fc51;
+    /* max-width: 500px; */
 }
 
 p {
-  line-height: 20px;
+    line-height: 20px;
 }
 
 h1 {
-  font-style: italic;
-  text-transform: uppercase;
+    font-style: italic;
+    text-transform: uppercase;
 }
 
-#my-header {
-  color: #660000;
+.images {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.my-header {
+    color: #660000;
+    min-width: 100%;
+    text-align: center;
 }
 
 #first-paragraph {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #000000;
 }
 
 #second-paragraph {
-  border-style: dashed;
-  border-width: 2px;
-  border-color: #000000;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000000;
 }
 
 .even {
- font-style: italic;
+    font-style: italic;
 }
 
 .odd {
-  color: red;
+    color: red;
 }
