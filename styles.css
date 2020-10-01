@@ -5,6 +5,8 @@ body {
   background-color: #FFFF00;
   max-width: 500px;
   text-align: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 p {
@@ -15,18 +17,26 @@ h1 {
   font-style: italic;
   text-transform: uppercase;
 }
-
+.cont
+{
+   width: 100%;  
+  justify-content: center;
+  align-items: center;
+  padding: 15px;  
+}
 #my-header {
   color: #660000;
 }
 
 #first-paragraph {
+   font-family: 'Satisfy', cursive;
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
 }
 
 #second-paragraph {
+   font-family: 'Satisfy', cursive;
   border-style: dashed;
   border-width: 2px;
   border-color: #000000;
