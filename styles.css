@@ -1,41 +1,57 @@
-/* this is a comment */
-
+<!DOCTYPE html>
+<html>
+<title>Css</title>
+<head><h2>css style</h2></head>
+<style>
 body {
   font-family: arial, helvetica, sans-serif;
-  background-color: #FFFF00;
+  background-color: yellow ;
   max-width: 500px;
   text-align: center;
 }
-
 p {
   line-height: 20px;
+  text-decoration:underline;
 }
-
 h1 {
   font-style: italic;
   text-transform: uppercase;
 }
-
 #my-header {
   color: #660000;
 }
-
 #first-paragraph {
+  color:red;
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
 }
-
 #second-paragraph {
+  color:orange;
   border-style: dashed;
   border-width: 2px;
   border-color: #000000;
 }
-
 .even {
  font-style: italic;
 }
-
 .odd {
   color: red;
 }
+</style>
+<body>
+<h1>CSS Introduction</h1>
+<p id="my-header">What is CSS?</p>
+<div id="first-paragraph">
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+</div>
+<div id="second-paragraph">
+CSS Saves a Lot of Work!
+The style definitions are normally saved in external .css files.
+With an external stylesheet file, you can change the look of an entire website by changing just one file!
+</div>
+</body>
+</html>
