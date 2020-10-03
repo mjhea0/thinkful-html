@@ -1,15 +1,27 @@
+/* CSS RESET */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* CSS Variable */
+:root {
+  --main-color: pink;
+  --font: 'Titillium Web', sans-serif;
+}
+
 body {
-  background-color: pink;
-  font-family: 'Titillium Web', sans-serif;
+  background-color: var(--main-color);
+  font-family: font(--var)
 }
 
 h1, h2 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: var(--font);
 }
 
 #heading {
   font-size: 4em;
-  color: pink;
+  color: var(--main-color);
 }
 
 .lead {
