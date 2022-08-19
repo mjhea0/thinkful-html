@@ -43,7 +43,7 @@ This structure is commonly referred to as a boilerplate template. Such templates
 ### What's going on?
 
 1. The first line, `<!DOCTYPE html>` is the document type declaration, which tells the browser the version of HTML the page is using (HTML5, in our case). Without this, browsers can get confused, especially older versions of Internet Explorer. 
-2. `<html>` is the first tag and it informs the browser that all code between the opening and closing, `</html>`, tags is HTML. 
+2. `<html>` is the first tag and it informs the browser that all code between the opening and closing, `</html>`, [tags is HTML](https://www.scaler.com/topics/html/html-tags/). 
 3. The `<head>` tag contains links to CSS stylesheets and Javascript files that we wish to use in our web page, as well as meta information used by search engines for classification. In the above HTML, I used the `<title>` tag to give the web page a title.
 4. All code that falls within the `<body>` tags are part of the main content of the page, which will appear in the browser to the end user.
 
